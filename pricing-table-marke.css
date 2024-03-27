@@ -1,0 +1,217 @@
+.pricing-container-mark {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+}
+
+.plans-header-mark {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #f5f5f5;
+}
+
+.plan-option-mark {
+    padding: 20px;
+    cursor: pointer;
+    flex: 1;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.plan-option-mark:not(.selected):hover {
+    background-color: #e0e0e0;
+}
+
+.plan-option-mark.selected {
+    background-color: #00327D;
+    color: #fff;
+}
+
+.plan-details-mark {
+    padding: 20px;
+}
+
+.plan-content-mark {
+    display: none;
+}
+
+.plan-content-mark.active {
+    display: block;
+}
+
+.price-mark {
+    font-size: 36px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price-details-mark {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+.feature-list-mark {
+    font-size: 16px;
+    margin-top: 30px;
+    color: #555;
+    text-align: left;
+    display: inline-block;
+}
+
+.feature-list-mark p {
+    margin-bottom: 10px;
+}
+
+.get-started-btn-mark {
+    background-color: #00327D;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn-mark:hover {
+    background-color: #002252;
+}
+
+.plan-icon-mark {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.checkmark-icon-mark {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: #28a745;
+}
+
+.founder-badge-mark {
+    background-color: #97CBDB;
+    color: #333;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.free-resources-mark {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+}
+
+.btn-container-mark {
+    display: flex;
+    justify-content: center;
+}
+
+.expandable-section-mark {
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.expandable-section-mark p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.speech-bubble-icon-mark {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    vertical-align: middle;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-chatbubble-512.png');
+    background-size: cover;
+}
+
+.expandable-content-mark {
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.expandable-content-mark ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.expandable-content-mark li {
+    margin-bottom: 5px;
+}
+
+.expandable-content-mark li strong {
+    margin-right: 5px;
+}
+
+.expandable-content-mark li span {
+    font-size: 12px;
+    color: #666;
+}
+
+.schedule-embed-mark {
+    display: none;
+    margin-top: 10px;
+}
+
+.back-to-features-mark {
+    display: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #00327D;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.back-arrow-icon-mark {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+    vertical-align: middle;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-left-b-512.png');
+    background-size: cover;
+}
+
+.iframe-mask-mark {
+  overflow: hidden; /* Hide any content outside this container */
+  display: flex; /* Utilize Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 620px; /* Set a fixed height to cut off white space, adjust based on your needs */
+}
+
+.iframe-mask-mark iframe {
+  height: 670px; /* Slightly larger height to ensure desired content is visible */
+  width: 100%; /* Ensure iframe takes full width of the container */
+  border: 0; /* Remove any default border */
+  position: relative; /* Needed for positioning adjustments */
+  top: -50px; /* Adjust this value to hide white space at the top, modify as necessary */
+}
